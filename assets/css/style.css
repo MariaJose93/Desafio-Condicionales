@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, lightsteelblue,plum,pink );
+    overflow: hidden;
+    text-align: center;
+  
+}
+h2 {
+    color: purple;
+}
+.opcion-sticker {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sticker {
+    text-align: center;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+   
+}
+
+button {
+    background-color: palevioletred;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.imagen-con-borde{
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    border: 3px solid transparent;
+
+}
+.imagen-con-borde.activo{
+    border-color: red;
+}
